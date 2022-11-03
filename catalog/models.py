@@ -49,4 +49,4 @@ class SongInAlbum(models.Model):
     serial_number = models.PositiveIntegerField("Порядковый номер в альбоме", default=0)
 
     def __str__(self):
-        return self.serial_number
+        return str(self.serial_number)
